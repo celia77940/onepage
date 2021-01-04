@@ -1,0 +1,122 @@
+body{
+    margin: 0px
+}
+
+@font-face{
+    font-family: "Nextart light";
+    src: url(assets/fonts/NEXT\ ART_Light.otf);
+}
+
+@font-face{
+    font-family: "Brushwell";
+    src: url(assets/fonts/Brushwell.otf);
+}
+
+@font-face{
+    font-family: "RedVelvet-Regular";
+    src: url(assets/fonts/RedVelvet-Regular.otf);
+}
+
+@font-face{
+    font-family: "LouisGeorge";
+    src: url(assets/fonts/Louis\ George\ Cafe.ttf);
+}
+
+@font-face{
+    font-family: "RedVelvet";
+    src: url(assets/fonts/RedVelvet-Regular.otf);
+}
+
+
+/* HEADER */
+
+header{
+    background-image: url(assets/image/fond.png);
+    background-size: cover;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+/* Display flex */
+.display{
+    display: flex;
+    justify-content: center;
+}
+
+.placement{
+    padding-top: 9em;
+    padding-bottom: 16em
+}
+
+.placement1{
+    padding-top: 4em;
+    padding-bottom: 4em
+}
+
+ul{
+    margin:0px;
+    padding-top: 2em;
+    margin: auto;
+}
+
+.display li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 4em;
+    margin-top: 0px;
+    font-family: "Nextart light";
+}
+
+h1{
+    font-family: "Brushwell";
+    text-align: center;
+    font-size: 3.5em;
+    margin: 0;
+}
+
+.trait{
+    border-bottom: 0.1rem solid white; 
+    margin: 0 auto;
+    width: 20em;
+    padding-top: 2em;   
+}
+
+h2{
+    color: white;
+    font-family: "RedVelvet-Regular";
+    text-align: center;
+    font-size: 3.5em;
+    margin: 0;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+.paragraphe{
+    margin: 0 auto;
+    width: 50em;    
+}
+
+p{
+    font-family: "LouisGeorge";
+    text-align: center;
+}
+
+.logo{
+    text-align: center
+}
+
+.reseau{
+    flex-basis:100em;
+}
+
+.svg{
+  line-height: 4em; /* hauteur de ligne (identique) */
+  padding-top: 6em;
+}
+
+.carre{
+    border: 2em solid red;
+}
