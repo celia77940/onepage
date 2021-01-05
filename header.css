@@ -70,12 +70,21 @@ ul{
     font-family: "Nextart light";
 }
 
+li{
+    list-style: none;
+}
+
 h1{
     font-family: "Brushwell";
     text-align: center;
     font-size: 3.5em;
     margin: 0;
 }
+
+.left{
+        text-align: left;
+}
+
 
 .trait{
     border-bottom: 0.1rem solid white; 
@@ -120,3 +129,63 @@ p{
 .carre{
     border: 2em solid red;
 }
+
+@media (max-width: 777px){
+
+    .display{
+        display: block;
+    }
+
+    .placement{
+        padding-bottom: 0em;
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+
+    
+
+    h2{
+        font-size: 2em;
+    }
+
+    .paragraphe{
+        width:15em;
+    }
+
+    p{
+        font-size: 0.8em;
+    }
+
+    .trait{
+        width: 15em;
+ 
+    }
+
+    .svg{
+      padding-top: 0em  
+    }
+
+    .svgresp{
+        display: flex;
+        justify-content: center;
+    }
+
+    .left{
+        text-align: center;
+    }
+
+    .article{
+        padding-left: 0em;
+        padding-top: 0em;
+    }
+
+    li{
+        text-align: center;
+    }
+
+    
+
+}
+
