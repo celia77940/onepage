@@ -2,26 +2,31 @@ body{
     margin: 0px
 }
 
+/* NEXTART LIGHT */
 @font-face{
     font-family: "Nextart light";
     src: url(assets/fonts/NEXT\ ART_Light.otf);
 }
 
+/* BRUSHWELL */
 @font-face{
     font-family: "Brushwell";
     src: url(assets/fonts/Brushwell.otf);
 }
 
+/* REDVELVET REGULAR */
 @font-face{
     font-family: "RedVelvet-Regular";
     src: url(assets/fonts/RedVelvet-Regular.otf);
 }
 
+/* LOUISGEORGE */
 @font-face{
     font-family: "LouisGeorge";
     src: url(assets/fonts/Louis\ George\ Cafe.ttf);
 }
 
+/* REDVELVET */
 @font-face{
     font-family: "RedVelvet";
     src: url(assets/fonts/RedVelvet-Regular.otf);
@@ -35,6 +40,7 @@ header{
     background-size: cover;
 }
 
+/* NAVBAR */
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 2rem;
     padding-left: 2rem;
@@ -46,22 +52,26 @@ header{
     justify-content: center;
 }
 
+/* PLACEMENT */
 .placement{
     padding-top: 9em;
     padding-bottom: 16em
 }
 
+/* PLACEMENT1 */
 .placement1{
     padding-top: 4em;
     padding-bottom: 4em
 }
 
+/* UL */
 ul{
     margin:0px;
     padding-top: 2em;
     margin: auto;
 }
 
+/* A */
 .display li a{
     text-decoration: none;
     color: white;
@@ -70,10 +80,12 @@ ul{
     font-family: "Nextart light";
 }
 
+/* LI */
 li{
     list-style: none;
 }
 
+/* H1 */
 h1{
     font-family: "Brushwell";
     text-align: center;
@@ -81,11 +93,12 @@ h1{
     margin: 0;
 }
 
+/* LEFT */
 .left{
         text-align: left;
 }
 
-
+/* TRAIT */
 .trait{
     border-bottom: 0.1rem solid white; 
     margin: 0 auto;
@@ -93,6 +106,7 @@ h1{
     padding-top: 2em;   
 }
 
+/* H2 */
 h2{
     color: white;
     font-family: "RedVelvet-Regular";
@@ -103,89 +117,103 @@ h2{
     padding-bottom: 0.3em;
 }
 
+/* PARAGRAPHE */
 .paragraphe{
     margin: 0 auto;
     width: 50em;    
 }
 
+/* P */
 p{
     font-family: "LouisGeorge";
     text-align: center;
 }
 
+/* .LOGO */
 .logo{
     text-align: center
 }
 
+/* .RESEAU */
 .reseau{
     flex-basis:100em;
 }
 
+/* SVG */
 .svg{
   line-height: 4em; /* hauteur de ligne (identique) */
   padding-top: 6em;
 }
 
+/* CARRE */
 .carre{
     border: 2em solid red;
 }
 
+/* MEDIA */
 @media (max-width: 777px){
-
+    
+    /* DISPLAY */
     .display{
         display: block;
     }
 
+    /* PLACEMENT */
     .placement{
         padding-bottom: 0em;
     }
 
+    /* H1 */
     h1{
         font-size: 2.5em;
     }
 
-    
-
+    /* H2 */
     h2{
         font-size: 2em;
     }
 
+    /* PARAGRAPHE */
     .paragraphe{
         width:15em;
     }
 
+    /* P */
     p{
         font-size: 0.8em;
     }
 
+    /* .TRAIT */
     .trait{
         width: 15em;
- 
     }
 
+    /* .SVG */
     .svg{
       padding-top: 0em  
     }
 
+    /* .SVGRESP */
     .svgresp{
         display: flex;
         justify-content: center;
     }
 
+    /* .LEFT */
     .left{
         text-align: center;
     }
 
+    /* .ARTICLE */
     .article{
         padding-left: 0em;
         padding-top: 0em;
     }
 
+    /* LI */
     li{
         text-align: center;
     }
-
-    
 
 }
 
